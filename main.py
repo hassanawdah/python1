@@ -62,6 +62,11 @@ you'''
 # print(str1[::-2])
 
 
-number = input("Enter the number\n")
-number2 = input("Enter the number\n")
+number = int(input("Enter the number\n"))
+number2 = int(input("Enter the number\n"))
 print(int(number) + int(number2))
+
+print(1, 2, 3, 4, 5, 6, sep='*')
+
+
+print(f'The value of {number}+{number2}={number+number2}')
